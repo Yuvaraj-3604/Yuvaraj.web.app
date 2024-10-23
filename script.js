@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   for (var i = 0; i < downloadButtons.length; i++) {
     downloadButtons[i].addEventListener("click", function () {
-      var resumeUrl = "resume/Yuvaraj Perumal resume.pdf";
+      var resumeUrl = "resume/Yuvaraj Perumal resume(3).pdf";
       var downloadLink = document.createElement("a");
       downloadLink.href = resumeUrl;
       downloadLink.download = "Yuvaraj Perumal resume.pdf";
