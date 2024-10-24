@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var resumeUrl = "resume/Yuvaraj Perumal resume(3).pdf";
       var downloadLink = document.createElement("a");
       downloadLink.href = resumeUrl;
-      downloadLink.download = "Yuvaraj Perumal resume.pdf";
+      downloadLink.download = "Yuvaraj Perumal resume(3).pdf";
       document.body.appendChild(downloadLink);
       downloadLink.click();
       document.body.removeChild(downloadLink);
